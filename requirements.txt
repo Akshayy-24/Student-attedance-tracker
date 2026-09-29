@@ -1,0 +1,5 @@
+Flask>=3.0
+qrcode[pil]>=7.4
+Pillow>=10.1
+xlsxwriter>=3.1
+tabulate>=0.9

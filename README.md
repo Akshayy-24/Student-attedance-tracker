@@ -1,2 +1,8 @@
-# Student-attedance-tracker
-Smart Attendance Tracker is a Flask-based attendance management system using QR codes for fast and secure attendance. It provides teacher and student portals, live analytics, automated low-attendance alerts, Excel reports, manual attendance, and anti-proxy features using SQLite.
+# Smart Attendance Tracker
+```
+pip install -r requirements.txt
+python app.py            # web app at http://127.0.0.1:5000
+python cli.py report     # terminal mode (also: defaulters, sessions, mark <session> <roll>, alert)
+```
+Demo logins: `teacher / teacher123`, students `CS101 / CS101` ... `CS106 / CS106`.
+Delete `attendance.db` to reset. Camera scanning needs localhost or HTTPS.
